@@ -1,0 +1,50 @@
+body {
+    font-family:'Times New Roman', Times, serif  
+}
+
+#navbar {
+    background-color: #333 ;
+    margin: 10 px;
+}
+
+#navbar a {
+    color:aliceblue;
+    text-decoration: none;
+    margin-right: 15 px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+.card{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color:aliceblue;
+    font-weight:bold;
+}
+
+@media (max-wideth: 600px){
+    body{
+        background-color: #e0e0e0;
+
+    }
+
+    #navbar a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
