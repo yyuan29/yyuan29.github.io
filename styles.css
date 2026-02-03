@@ -22,6 +22,16 @@ body {
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
+    border: 1px solid black;
+}
+
+.foot{
+    background-color: #333 ;
+    text-align: center;
+    font-size: smaller;
+}
+.foot > p, a{
+    color: white;
 }
 
 .main-img {
@@ -35,6 +45,18 @@ body {
     color:aliceblue;
     font-weight:bold;
 }
+
+table a{
+    color: black;
+}
+
+table, th, td{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
 
 @media (max-wideth: 600px){
     body{
