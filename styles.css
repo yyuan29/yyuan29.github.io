@@ -58,7 +58,7 @@ table, th, td{
 }
 
 
-@media (max-wideth: 600px){
+@media (max-width: 600px){
     body{
         background-color: #e0e0e0;
 
