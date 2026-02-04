@@ -25,6 +25,14 @@ body {
     border: 1px solid black;
 }
 
+.sty{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
 .foot{
     background-color: #333 ;
     text-align: center;
